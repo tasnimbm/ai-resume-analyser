@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {Link, useNavigate, useParams} from "react-router";
 import {usePuterStore} from "~/lib/puter";
-import Summary from "~/components/Suammary";
+import Summary from "~/components/Summary";
 import Details from "~/components/Details";
+import ATS from "~/components/ATS";
 export const meta=() =>([
     {title:'Resmind | Review'},
     {name: 'description',content:'Detailed overview of your resume'},
